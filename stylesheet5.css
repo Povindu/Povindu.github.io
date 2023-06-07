@@ -1,0 +1,90 @@
+body{
+    
+    background-image: url(homemid5.jpg);
+    background-size: cover;
+    overflow-y: hidden;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.top{
+    background-image: linear-gradient(to top, rgba(255,255,255,0), var(--light2)) !important;
+}
+.body{
+    text-align: center;
+    color: #CBE4DE;
+}
+
+.body ul{
+    list-style-type:none;
+}
+
+.midsocial{
+    margin-top: 4vh;
+}
+
+.fb-mid{
+    margin-left: 40px;
+    width: 100px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('fb2.webp');
+    display: inline-block;
+}
+
+.insta-mid{
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('insta.webp');
+}
+
+.form input{
+    margin: 0.5vw;
+}
+
+.form{
+    height: 30vh;
+    color: #CBE4DE;
+    background-image: linear-gradient(to bottom left,var(--light),var(--light2));
+    margin: auto;
+    margin-top: 2vh;
+    width: 50vw;
+    border-radius: 20px;
+    padding-top: 5px;
+    text-align:center;
+}
+.contact-topic{
+    font-size: 1.5vw;
+    padding: 10px;
+}
+.form button{
+    margin: 20px;
+    padding: 8px;
+    background-color: var(--dark);
+    color: #CBE4DE;
+}
+
+.con{
+    height: 35vh;
+    background-image: linear-gradient(to bottom right,var(--light),var(--light2));
+    border-radius: 20px;
+    width: 60vw;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.back{
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5;
+    z-index: -10;
+    position:absolute;
+    top:0%;
+}
