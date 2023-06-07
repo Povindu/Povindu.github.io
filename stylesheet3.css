@@ -1,0 +1,81 @@
+
+.top{
+    z-index: 5;
+    padding-bottom: 3vh;
+    background-image: linear-gradient(to top, rgba(255,255,255,0), var(--light2)) !important;
+}
+
+.body{
+    z-index: -1;
+}
+.con img{
+    width: 100vw;
+    height: 80vh;
+    margin: 0%;
+    z-index: 0;
+    position: relative;
+}
+
+.con:hover{
+    transform: scale(1.01);
+}
+
+.con p{
+    padding: 35vh 0;
+    margin: 0%;
+    z-index: 5;
+    text-align: center;
+    font-size: 8vh;
+    color: aliceblue;
+    text-shadow: rgb(0, 0, 0) 1px 1px 8px;
+}
+
+.con{
+    width: 60vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con:nth-child(1){
+    background-image: url(ballroom.jpg);
+}
+.con:nth-child(2){
+    background-image: url(pool.jpg);
+}
+.con:nth-child(3){
+    background-image: url(conferenceroom.jpg);
+}
+.con:nth-child(4){
+    background-image: url(bar.jpg);
+}
+.con:nth-child(5){
+    background-image: url(spa.jpg);
+}
+.con:nth-child(6){
+    background-image: url(resturant.jpg);
+}
+
+.con:nth-child(odd){
+    float: left;
+}
+.con:nth-child(even){
+    float: left;
+}
+
+.con:nth-child(4n-3){
+    width: 40vw;
+}
+.con:nth-child(4n){
+    width: 40vw;
+}
+
+
+.contain{
+    position:absolute;
+    z-index: -5;
+    top: 0%;
+    width: 100vw;
+}
+
+
+    
